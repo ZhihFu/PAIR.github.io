@@ -133,17 +133,4 @@ body {
   font-size: smaller;
 }
 
-.author-link:link,
-.author-link:visited,
-.author-link:active {
-  color: #4a4a4a !important;
-  text-decoration: none;
-  font-weight: 1000;
-}
-
-.author-link:hover {
-  color: black !important;
-  text-decoration: none;
-}
-
 
