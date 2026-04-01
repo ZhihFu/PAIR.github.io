@@ -127,3 +127,42 @@ body {
 .eql-cntrb {
   font-size: smaller;
 }
+
+.research-dropdown {
+  max-height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.research-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.research-dropdown::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 999px;
+}
+
+.research-dropdown::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.task-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #363636;
+  pointer-events: none;
+  cursor: default;
+  padding-top: 0.65rem;
+  padding-bottom: 0.35rem;
+  letter-spacing: 0.02em;
+}
+
+.research-dropdown a.navbar-item:hover {
+  background-color: #f5f5f5;
+  color: #3273dc;
+}
+
+.research-dropdown .navbar-divider {
+  margin: 0.4rem 0;
+}
